@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 80px 0 45px 0;
+  height: 100%;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
   padding: 3% 10%;
   scroll-margin-top: 100px;
   position: relative;
-  z-index: -1;
+  z-index: -2;
 }
 
 .card_heading {
@@ -39,7 +40,6 @@ header {
 
 .card_bookmark {
   border: 2px solid olivedrab;
-  padding: 6px 12px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   position: absolute;
@@ -47,6 +47,7 @@ header {
   right: -10px;
   height: 60px;
   width: 60px;
+  cursor: pointer;
 }
 
 .flag {
@@ -91,6 +92,8 @@ p {
   margin-left: 40%;
   position: fixed;
   bottom: 0;
+  background-color: blueviolet;
+  width: 100%;
 }
 
 .footer_image {
