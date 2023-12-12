@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Countries Flag Quiz</title>
   </head>
   <body>
@@ -12,133 +16,85 @@
     </header>
     <main>
       <section class="card">
-        <h2 class="card_heading">1. Guess the country for the below flag :</h2>
-
-        <img src="images/book.png" alt="Bookmarks" class="card_bookmark" />
-        <p>
-          <img class="flag_size" src="images/germany.png" alt="flag" />
-          <br /><br /><br />
-          <input type="radio" id="india" name="country" value="India" />
-          <label for="india" class="flag_options">India</label><br />
-          <input type="radio" id="germany" name="country" value="Germany" />
-          <label for="germany" class="flag_options">Germany</label><br />
-          <input type="radio" id="china" name="country" value="China" />
-          <label for="china" class="flag_options">China</label><br />
-          <input type="radio" id="france" name="country" value="France" />
-          <label for="france" class="flag_options">France</label>
-          <br />
-        </p>
+        <h2>1. Guess the country for the below flag :</h2>
+        <aside class="card_bookmark">
+          <button>
+            <i class="fa fa-bookmark-o" style="font-size: 80px"></i>
+          </button>
+        </aside>
+        <article class="question">
+          <ul class="question_card">
+            <li><span class="flag_size">🇩🇪</span></li>
+            <li class="options">
+              <input type="radio" id="india" name="country" value="India" />
+              <label for="india" class="flag_options">India</label><br />
+              <input type="radio" id="germany" name="country" value="Germany" />
+              <label for="germany" class="flag_options">Germany</label><br />
+              <input type="radio" id="china" name="country" value="China" />
+              <label for="china" class="flag_options">China</label><br />
+              <input type="radio" id="france" name="country" value="France" />
+              <label for="france" class="flag_options">France</label>
+            </li>
+          </ul>
+        </article>
         <br />
         <span class="submit">
           <button class="button_class">Submit</button>
           <button class="button_class">Previous</button>
           <button class="button_class">Next</button>
+          <button class="button_show_answer">Show Answer</button>
         </span>
       </section>
       <section class="card">
-        <h2 class="card_heading">2. Guess the country for the below flag :</h2>
-
-        <img src="images/book.png" alt="Bookmarks" class="card_bookmark" />
-        <p>
-          <img class="flag_size" src="images/india.png" alt="flag" />
-          <br /><br /><br />
-          <input type="radio" id="india" name="country" value="India" />
-          <label for="india" class="flag_options">India</label><br />
-          <input type="radio" id="germany" name="country" value="Germany" />
-          <label for="germany" class="flag_options">Germany</label><br />
-          <input type="radio" id="china" name="country" value="China" />
-          <label for="china" class="flag_options">China</label><br />
-          <input type="radio" id="france" name="country" value="France" />
-          <label for="france" class="flag_options">France</label>
-          <br />
-        </p>
+        <h2>2. Guess the country for the below flag :</h2>
+        <aside class="card_bookmark">
+          <button>
+            <i class="fa fa-bookmark" style="font-size: 80px"></i>
+          </button>
+        </aside>
+        <article class="question">
+          <ul class="question_card">
+            <li><span class="flag_size">🇮🇳</span></li>
+            <li class="options">
+              <input type="radio" id="india" name="country" value="India" />
+              <label for="india" class="flag_options">India</label><br />
+              <input type="radio" id="germany" name="country" value="Germany" />
+              <label for="germany" class="flag_options">Germany</label><br />
+              <input type="radio" id="china" name="country" value="China" />
+              <label for="china" class="flag_options">China</label><br />
+              <input type="radio" id="france" name="country" value="France" />
+              <label for="france" class="flag_options">France</label>
+            </li>
+          </ul>
+        </article>
         <br />
         <span class="submit">
           <button class="button_class">Submit</button>
           <button class="button_class">Previous</button>
           <button class="button_class">Next</button>
-        </span>
-      </section> <section class="card">
-        <h2 class="card_heading">1. Guess the country for the below flag :</h2>
-
-        <img src="images/book.png" alt="Bookmarks" class="card_bookmark" />
-        <p>
-          <img class="flag_size" src="images/germany.png" alt="flag" />
-          <br /><br /><br />
-          <input type="radio" id="india" name="country" value="India" />
-          <label for="india" class="flag_options">India</label><br />
-          <input type="radio" id="germany" name="country" value="Germany" />
-          <label for="germany" class="flag_options">Germany</label><br />
-          <input type="radio" id="china" name="country" value="China" />
-          <label for="china" class="flag_options">China</label><br />
-          <input type="radio" id="france" name="country" value="France" />
-          <label for="france" class="flag_options">France</label>
-          <br />
-        </p>
-        <br />
-        <span class="submit">
-          <button class="button_class">Submit</button>
-          <button class="button_class">Previous</button>
-          <button class="button_class">Next</button>
-        </span>
-      </section> <section class="card">
-        <h2 class="card_heading">1. Guess the country for the below flag :</h2>
-
-        <img src="images/book.png" alt="Bookmarks" class="card_bookmark" />
-        <p>
-          <img class="flag_size" src="images/germany.png" alt="flag" />
-          <br /><br /><br />
-          <input type="radio" id="india" name="country" value="India" />
-          <label for="india" class="flag_options">India</label><br />
-          <input type="radio" id="germany" name="country" value="Germany" />
-          <label for="germany" class="flag_options">Germany</label><br />
-          <input type="radio" id="china" name="country" value="China" />
-          <label for="china" class="flag_options">China</label><br />
-          <input type="radio" id="france" name="country" value="France" />
-          <label for="france" class="flag_options">France</label>
-          <br />
-        </p>
-        <br />
-        <span class="submit">
-          <button class="button_class">Submit</button>
-          <button class="button_class">Previous</button>
-          <button class="button_class">Next</button>
-        </span>
-      </section> <section class="card">
-        <h2 class="card_heading">1. Guess the country for the below flag :</h2>
-
-        <img src="images/book.png" alt="Bookmarks" class="card_bookmark" />
-        <p>
-          <img class="flag_size" src="images/germany.png" alt="flag" />
-          <br /><br /><br />
-          <input type="radio" id="india" name="country" value="India" />
-          <label for="india" class="flag_options">India</label><br />
-          <input type="radio" id="germany" name="country" value="Germany" />
-          <label for="germany" class="flag_options">Germany</label><br />
-          <input type="radio" id="china" name="country" value="China" />
-          <label for="china" class="flag_options">China</label><br />
-          <input type="radio" id="france" name="country" value="France" />
-          <label for="france" class="flag_options">France</label>
-          <br />
-        </p>
-        <br />
-        <span class="submit">
-          <button class="button_class">Submit</button>
-          <button class="button_class">Previous</button>
-          <button class="button_class">Next</button>
+          <button class="button_show_answer">Show Answer</button>
         </span>
       </section>
     </main>
-    <footer class="footer_class">
+    <footer>
       <ul class="footer_elements">
         <li>
-          <img src="images/home.png" alt="Home Page" class="footer_image" />
+          <a href="index.html"
+            ><img src="images/home.png" alt="Home Page" class="footer_image"
+          /></a>
         </li>
         <li>
-          <img src="images/book.png" alt="Bookmarks" class="footer_image" />
+          <a href="bookmarks.html"
+            ><img src="images/book.png" alt="Bookmarks" class="footer_image"
+          /></a>
         </li>
         <li>
-          <img src="images/user.png" alt="Profile" class="footer_image" />
+          <a href="profilePage.html"
+            ><img
+              src="images/profile_icon.png"
+              alt="Profile"
+              class="footer_image"
+          /></a>
         </li>
       </ul>
     </footer>
