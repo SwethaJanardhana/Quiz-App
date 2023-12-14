@@ -23,6 +23,10 @@ header {
   top: 0;
 }
 
+.colorChange {
+  color: hotpink;
+}
+
 .card {
   margin: 20px 10%;
   border: 5px solid rgb(89, 87, 87);
