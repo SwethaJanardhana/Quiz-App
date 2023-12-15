@@ -41,6 +41,22 @@ header {
   position: absolute;
   top: -25px;
   right: -18px;
+  width: 50px;
+  height: 60px;
+}
+
+.card_bookmark--unClicked {
+  width: 40px;
+  fill: white;
+}
+
+.card_bookmark--clicked {
+  width: 40px;
+  fill: black;
+}
+
+.header_class {
+  color: hotpink;
 }
 
 .flag_options {

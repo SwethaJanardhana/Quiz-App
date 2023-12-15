@@ -1,14 +1,7 @@
-var titleColor = document.querySelector('[data-js="titleColor"]');
-console.log(titleColor);
-
-titleColor.addEventListener("click", () => {
-  console.log("Inside function");
-  titleColor.classList.toggle("colorChange");
-});
-
-var button = document.querySelector('[data-js="button"]');
-console.log(button);
-button.addEventListener("click", () => {
-  console.log("Inside function");
-  button.classList.toggle("fa-bookmark");
+const bookmark = document.querySelector('[data-js="bookmark"]');
+console.log("outside");
+console.log("checking");
+bookmark.addEventListener("click", () => {
+  console.log("inside");
+  bookmark.classList.add("card_bookmark--clicked ");
 });
