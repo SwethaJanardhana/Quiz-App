@@ -1,0 +1,9 @@
+@import "/css/components/hearder.css";
+@import "/css/components/buttons.css";
+@import "/css/components/card.css";
+@import "/css/components/footer.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
