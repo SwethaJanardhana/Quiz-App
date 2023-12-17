@@ -3,36 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Countries Flag Quiz</title>
   </head>
   <body>
-    <header>
-      <h1 data-js="header"><span>🇮🇳 </span>Flags Quiz<span> 🇩🇪</span></h1>
+    <header class="quiz-title">
+      <h1><span>🇮🇳 </span>Flags Quiz<span> 🇩🇪</span></h1>
     </header>
-    <main>
+    <main class="main_content">
       <section class="card">
-        <h2>1. Guess the country for the below flag :</h2>
+        <h2>1. Guess the flag :</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           class="card_bookmark card_bookmark--unClicked"
-          data-js="bookmark"
+          data-js="bookMarkedImage"
         >
           <title>bookmark</title>
           <path
             d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
           />
         </svg>
-        <!--<a href="bookmarks.html"
-          ><img
-            src="images/book.png"
-            alt="Bookmarks"
-            class="footer_image card_bookmark"
-            data-js="bookmark"
-        /></a>-->
-        <article class="question">
+        <article>
           <ul class="question_card">
             <li><span class="flag_size">🇩🇪</span></li>
             <li class="options">
@@ -48,36 +40,44 @@
           </ul>
         </article>
         <br />
+
         <span class="submit">
           <button class="button_class">Submit</button>
           <button class="button_class">Previous</button>
-          <button class="button_class">Next</button>
-          <button class="button_show_answer">Show Answer</button>
+          <button class="button_class">
+            <a href="question2.html">Next</a>
+          </button>
+          <button data-js="show_answer" class="button_show_answer">
+            Show Answer
+          </button>
+          <button data-js="hide_answer" class="button_hide_answer hide_button">
+            Hide Answer
+          </button>
         </span>
+
+        <article>
+          <br />
+          <br />
+          <p data-js="display_answer" class="hide_answer">Germany</p>
+        </article>
       </section>
     </main>
     <footer>
-      <ul class="footer_elements">
-        <li>
-          <a href="index.html"
-            ><img src="images/home.png" alt="Home Page" class="footer_image"
-          /></a>
-        </li>
-        <li>
-          <a href="bookmarks.html"
-            ><img src="images/book.png" alt="Bookmarks" class="footer_image"
-          /></a>
-        </li>
-        <li>
-          <a href="profilePage.html"
-            ><img
-              src="images/profile_icon.png"
-              alt="Profile"
-              class="footer_image"
-          /></a>
-        </li>
-      </ul>
+      <nav class="footer_elements">
+        <a href="/html/index.html"
+          ><img src="/images/home.png" alt="Home Page" class="footer_image"
+        /></a>
+        <a href="/html/bookmark.html"
+          ><img src="/images/book.png" alt="Bookmarks" class="footer_image"
+        /></a>
+        <a href="/html/profilePage.html"
+          ><img
+            src="/images/profile_icon.png"
+            alt="Profile"
+            class="footer_image"
+        /></a>
+      </nav>
     </footer>
   </body>
-  <script src="index.js"></script>
+  <script src="/js/index.js"></script>
 </html>

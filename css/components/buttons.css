@@ -1,0 +1,28 @@
+.submit {
+  margin-left: 20%;
+}
+
+.button_class {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(43, 226, 208);
+  border-radius: 2rem;
+}
+
+.button_show_answer {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(178, 19, 199);
+  border-radius: 2rem;
+}
+
+.button_hide_answer {
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(178, 19, 199);
+  border-radius: 2rem;
+}
+
+.hide_button {
+  display: none;
+}
