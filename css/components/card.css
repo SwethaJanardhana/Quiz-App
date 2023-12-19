@@ -1,78 +1,73 @@
+.body_color {
+  background-color: rgb(238, 204, 222);
+}
+
 .main_content {
   display: flex;
   flex-direction: column;
   margin: 80px 0 45px 0;
-  background-color: bisque;
-  height: 100%;
 }
 
 .card {
-  margin: 6% 20%;
+  margin: 3% 5%;
   border: 5px solid rgb(89, 87, 87);
+  background-color: rgb(166, 234, 190);
   border-radius: 2rem;
-  padding: 3% 10%;
+  font-size: 1.1rem;
+  padding: 0.5rem 2rem;
   position: relative;
 }
 
 .card_bookmark {
   position: absolute;
   top: -30px;
-  right: -40px;
-  width: 80px;
-  height: 80px;
+  right: -48px;
+  width: 5rem;
 }
 
 .card_bookmark--unClicked {
-  fill: white;
+  fill: rgb(255, 255, 255);
 }
 
 .card_bookmark--clicked {
   fill: black;
 }
 
-.hide_answer {
-  border: 3px solid green;
-  border-radius: 20rem;
-  height: 4rem;
-  font-size: 2rem;
-  color: rgb(22, 97, 72);
-  margin-left: 20%;
-  padding: 20px 10px;
+.question_card {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
   align-items: center;
-  background-color: pink;
-  display: none;
 }
 
-.revel_answer {
-  border: 3px solid green;
-  border-radius: 20rem;
-  height: 4rem;
-  font-size: 2rem;
-  color: rgb(22, 97, 72);
-  margin-left: 20%;
-  padding: 20px 10px;
-  align-items: center;
-  background-color: pink;
+.flag_size {
+  font-size: 9rem;
 }
 
 .flag_options {
-  font-size: 20px;
-  color: blue;
-}
-.flag_size {
-  font-size: 1000%;
+  font-size: 1.2rem;
+  color: rgba(6, 6, 61, 0.967);
+  line-height: 2rem;
 }
 
-.question_card {
-  position: relative;
-  display: flex;
-  list-style: none;
-  justify-content: left;
-  gap: 4rem;
-}
-
-.options {
-  position: absolute;
-  right: 40px;
-  top: 55px;
+@media screen and (min-width: 800px) {
+  .card {
+    margin: 3% 25%;
+  }
+  .question_card {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+    justify-content: center;
+  }
+  .flag_options {
+    padding-top: 2rem;
+  }
+  .button_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
