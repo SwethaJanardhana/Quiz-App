@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Countries Flag Quiz</title>
   </head>
-  <body>
+  <body class="body_color">
     <header class="quiz-title">
       <h1><span>🇮🇳 </span>Flags Quiz<span> 🇩🇪</span></h1>
     </header>
     <main class="main_content">
       <section class="card">
-        <h2>1. Guess the flag :</h2>
+        <h2 class="header_title">1. Guess the flag :</h2>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -26,26 +26,23 @@
         </svg>
         <article>
           <ul class="question_card">
-            <li><span class="flag_size">🇩🇪</span></li>
-            <li class="options">
+            <li class="flag_size">🇩🇪</li>
+            <li class="flag_options">
               <input type="radio" id="india" name="country" value="India" />
-              <label for="india" class="flag_options">India</label><br />
+              <label for="india">India</label><br />
               <input type="radio" id="germany" name="country" value="Germany" />
-              <label for="germany" class="flag_options">Germany</label><br />
+              <label for="germany">Germany</label><br />
               <input type="radio" id="china" name="country" value="China" />
-              <label for="china" class="flag_options">China</label><br />
+              <label for="china">China</label><br />
               <input type="radio" id="france" name="country" value="France" />
-              <label for="france" class="flag_options">France</label>
+              <label for="france">France</label>
             </li>
           </ul>
         </article>
-        <br />
 
-        <span class="submit">
-          <button class="button_class">Submit</button>
-          <button class="button_class">Previous</button>
+        <nav class="button_display">
           <button class="button_class">
-            <a href="question2.html">Next</a>
+            <a href="index.html" class="button_font">Previous</a>
           </button>
           <button data-js="show_answer" class="button_show_answer">
             Show Answer
@@ -53,12 +50,13 @@
           <button data-js="hide_answer" class="button_hide_answer hide_button">
             Hide Answer
           </button>
-        </span>
-
-        <article>
-          <br />
-          <br />
-          <p data-js="display_answer" class="hide_answer">Germany</p>
+          <button class="button_class">
+            <a href="question2.html" class="button_font">Next</a>
+          </button>
+        </nav>
+        <hr />
+        <article class="answer_display">
+          <button data-js="display_answer" class="hide_answer">Germany</button>
         </article>
       </section>
     </main>

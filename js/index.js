@@ -34,8 +34,3 @@ hideAnswer.addEventListener("click", () => {
   revelAnswer.classList.add("hide_answer");
   revelAnswer.classList.remove("revel_answer");
 });
-
-// Next Page
-
-const page2 = document.querySelector('[data-js="page2"]');
-page2.addEventListener("click", () => {});
