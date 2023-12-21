@@ -2,6 +2,7 @@
 @import "/css/components/buttons.css";
 @import "/css/components/card.css";
 @import "/css/components/footer.css";
+@import "/css/components/profile.css";
 
 * {
   box-sizing: border-box;
