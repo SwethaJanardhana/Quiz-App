@@ -1,11 +1,16 @@
-.body_color {
+.body_class {
   background-color: rgb(238, 204, 222);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main_content {
   display: flex;
   flex-direction: column;
   margin: 80px 0 45px 0;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 .card {
@@ -14,14 +19,14 @@
   background-color: rgb(166, 234, 190);
   border-radius: 2rem;
   font-size: 1.1rem;
-  padding: 0.5rem 2rem;
+  padding: 2rem 3rem;
   position: relative;
 }
 
 .card_bookmark {
   position: absolute;
   top: -30px;
-  right: -48px;
+  right: -40px;
   width: 5rem;
 }
 
@@ -52,7 +57,7 @@
 
 @media screen and (min-width: 800px) {
   .card {
-    margin: 3% 25%;
+    margin: 10%;
   }
   .question_card {
     display: flex;
@@ -61,13 +66,10 @@
     list-style: none;
     justify-content: center;
   }
-  .flag_options {
-    padding-top: 2rem;
-  }
   .button_display {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.2rem;
   }
 }
