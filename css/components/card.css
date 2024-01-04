@@ -23,6 +23,17 @@
   position: relative;
 }
 
+.card_result {
+  margin: 3% 5%;
+  border: 5px solid rgb(89, 87, 87);
+  background-color: rgb(167, 215, 246);
+  border-radius: 2rem;
+  font-size: 3rem;
+  padding: 4rem 3rem;
+  line-height: 6rem;
+  color: blue;
+}
+
 .card_bookmark {
   position: absolute;
   top: -30px;

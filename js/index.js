@@ -34,3 +34,9 @@ hideAnswer.addEventListener("click", () => {
   revelAnswer.classList.add("hide_answer");
   revelAnswer.classList.remove("revel_answer");
 });
+
+// Dark Mode
+
+const darkMode = document.querySelector('[data-js="darkMode"]');
+
+darkMode.addEventListener("click", () => {});
