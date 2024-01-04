@@ -3,6 +3,7 @@
 @import "/css/components/card.css";
 @import "/css/components/footer.css";
 @import "/css/components/profile.css";
+@import "/css/components/switch.css";
 
 * {
   box-sizing: border-box;

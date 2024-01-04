@@ -3,7 +3,7 @@
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .profile_image {
@@ -24,4 +24,13 @@
   display: flex;
   flex-direction: column;
   list-style: none;
+  line-height: 3rem;
+}
+
+.dark_mode {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 3rem;
 }
